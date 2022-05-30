@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.wrap {
+    background: silver;
+    border: 1px solid black;
+    flex: 0 1 calc(15% - 8px);
+}
+
+.comment {
+    border: 1px solid blue;
+}
